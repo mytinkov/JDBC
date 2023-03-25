@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b5a16bb-0492-4e6a-8230-c72a562c9d81" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.skypro/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.skypro/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.skypro/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.skypro/EmployeeDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.skypro/EmployeeDAOImpl.java" afterDir="false" />
+    <list default="true" id="3b5a16bb-0492-4e6a-8230-c72a562c9d81" name="Changes" comment="Second commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.skypro/HibernateSessionFactoryUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.skypro/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.skypro/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.skypro/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.skypro/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.skypro/EmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.skypro/EmployeeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.skypro/EmployeeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.skypro/EmployeeDAOImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="branch2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -94,7 +100,12 @@
       <option name="presentableId" value="Default" />
       <updated>1679254353920</updated>
       <workItem from="1679254355299" duration="985000" />
-      <workItem from="1679336657626" duration="2150000" />
+      <workItem from="1679336657626" duration="3061000" />
+      <workItem from="1679404373965" duration="1540000" />
+      <workItem from="1679411350535" duration="72000" />
+      <workItem from="1679681086832" duration="375000" />
+      <workItem from="1679681809392" duration="874000" />
+      <workItem from="1679741044602" duration="791000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1679254844567</created>
@@ -103,14 +114,53 @@
       <option name="project" value="LOCAL" />
       <updated>1679254844567</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First commit">
+      <created>1679338883619</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679338883619</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Second commit">
+      <created>1679339559467</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679339559467</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="branch3" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="First commit" />
+    <MESSAGE value="Second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
   </component>
 </project>
