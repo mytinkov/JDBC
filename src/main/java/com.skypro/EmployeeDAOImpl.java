@@ -2,15 +2,10 @@ package com.skypro;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 
-public class EmployeeDAOImpl implements EmployeeDAO{
+public class EmployeeDAOImpl implements EmployeeDAO {
+
     @Override
     public void create(Employee employee) {
         try (Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession()) {
@@ -22,22 +17,21 @@ public class EmployeeDAOImpl implements EmployeeDAO{
 
     @Override
     public Employee readById(int id) {
-        Employee result;
+        Employee employee;
         try (Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession()) {
-            result = session.get(Employee.class, id);
+            employee = session.get(Employee.class, id);
         }
-        return result;
+        return employee;
     }
 
     @Override
     public List<Employee> readAll() {
         List<Employee> employees;
         try (Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession()) {
-            employees = session.createQuery("FROM Employee", Employee.class).list();
+            employees = session.createQuery("from Employee", Employee.class).list();
         }
         return employees;
     }
-
     @Override
     public void update(Employee employee) {
         try (Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession()) {
@@ -46,7 +40,6 @@ public class EmployeeDAOImpl implements EmployeeDAO{
             transaction.commit();
         }
     }
-
     @Override
     public void delete(Employee employee) {
         try (Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession()) {
