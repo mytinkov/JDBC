@@ -1,4 +1,6 @@
-package com.skypro;
+package com.skypro.dao;
+
+import com.skypro.Employee;
 
 import java.util.List;
 

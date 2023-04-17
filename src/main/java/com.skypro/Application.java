@@ -1,6 +1,10 @@
 package com.skypro;
 
-import java.sql.*;
+import com.skypro.dao.CityDAO;
+import com.skypro.dao.impl.CityDAOImpl;
+import com.skypro.dao.EmployeeDAO;
+import com.skypro.dao.impl.EmployeeDAOImpl;
+
 import java.util.List;
 
 public class Application {

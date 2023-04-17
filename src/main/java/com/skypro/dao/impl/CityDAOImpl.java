@@ -1,11 +1,14 @@
-package com.skypro;
+package com.skypro.dao.impl;
 
+import com.skypro.City;
+import com.skypro.HibernateSessionFactoryUtil;
+import com.skypro.dao.CityDAO;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
 import java.util.List;
 
-public class CityDAOImpl implements CityDAO{
+public class CityDAOImpl implements CityDAO {
 
     @Override
     public void create(City city) {

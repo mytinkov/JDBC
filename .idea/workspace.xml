@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b5a16bb-0492-4e6a-8230-c72a562c9d81" name="Changes" comment="hibernate commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.skypro/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.skypro/CityDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.skypro/CityDAOImpl.java" afterDir="false" />
+    <list default="true" id="3b5a16bb-0492-4e6a-8230-c72a562c9d81" name="Changes" comment="hibernate2 commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.skypro/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.skypro/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.skypro/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.skypro/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.skypro/EmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.skypro/EmployeeDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.skypro/EmployeeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.skypro/EmployeeDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.skypro/HibernateSessionFactoryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.skypro/HibernateSessionFactoryUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +99,8 @@
       <workItem from="1679681086832" duration="375000" />
       <workItem from="1679681809392" duration="874000" />
       <workItem from="1679741044602" duration="1489000" />
-      <workItem from="1680082604392" duration="1666000" />
+      <workItem from="1680082604392" duration="1895000" />
+      <workItem from="1680699583392" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1679254844567</created>
@@ -137,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679741927964</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hibernate2 commit">
+      <created>1680084383644</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680084383644</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +171,7 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Second commit" />
     <MESSAGE value="hibernate commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="hibernate commit" />
+    <MESSAGE value="hibernate2 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="hibernate2 commit" />
   </component>
 </project>

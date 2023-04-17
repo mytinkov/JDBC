@@ -1,4 +1,6 @@
-package com.skypro;
+package com.skypro.dao;
+
+import com.skypro.City;
 
 import java.util.List;
 
